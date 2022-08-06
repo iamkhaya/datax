@@ -1,0 +1,3 @@
+[run]
+source = datax
+omit = datax/test*

@@ -1,0 +1,7 @@
+black
+flake8
+mockito
+mypy
+pylint
+pytest
+pytest-cov
