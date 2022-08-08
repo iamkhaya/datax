@@ -17,6 +17,7 @@ class InvalidConfigurationError(DataxException):
         self.status_code = 400
         self.message = message if message else "Datax: Invalid configuration provided"
 
+
 class InvalidSourceFileError(DataxException):
     def __init__(self, message=None):
         self.status_code = 400
